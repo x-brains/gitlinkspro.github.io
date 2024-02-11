@@ -1,0 +1,111 @@
+
+:root{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+p{
+    color: aliceblue;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #080808;
+}
+.header{
+   
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    color: rgb(255, 255, 255);
+    
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ad{
+    min-width: 300px;
+    min-height: 200px;
+    border: 1px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.link{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.link p{
+    font-size: 20px;
+    font-weight: 600;
+    font-style:italic;
+}
+#btn{
+    padding: 14px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: #92a7be;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    
+    font-style:inherit;
+    border: none;
+    border-radius: 12px;
+    transition: 600ms;
+}
+
+#btn.activated{
+    padding: 14px 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: #007aff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #007aff, 
+                0 0 25px #007aff;
+    font-style:inherit;
+    border: none;
+    border-radius: 12px;
+    
+}
+
+#btn.activated:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #007aff, 
+                0 0 25px #007aff,
+                0 0 50px #007aff,
+                0 0 100px #007aff;
+}
+
+#btn.activated:active{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #007aff, 
+                0 0 25px #007aff,
+                0 0 50px #007aff,
+                0 0 100px #007aff;
+}
+
+
+
+
+
